@@ -50,3 +50,10 @@ JDBC ```jdbc:h2:file:./data/letrasvivasdb```
 Credentials: sa 
 
 Password: None
+
+## 🚀 API Testing with Postman Web
+
+### Access the Collection
+1. Open [Postman Web](https://web.postman.co/) in your browser
+2. Click **Import** → **http://localhost:8080/api/books** tab
+3. Paste this raw JSON URL:
