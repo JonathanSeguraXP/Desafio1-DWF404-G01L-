@@ -17,20 +17,20 @@ H2 Database (or configure your own in application.properties).
 
 Unit Tests (Controller & Service layers).
 
-🛠️ Technologies
+# 🛠️ Technologies
 Backend: Spring Boot 3.5.4
 Database: H2 
 API Docs: Swagger/OpenAPI/Postman.
 Testing: JUnit 5, Mockito, Postman.
 
 
-🚀 Quick Start
+#🚀 Quick Start
 Prerequisites
 Java 17+
 Maven
 Postman
 
-API Endpoints
+#API Endpoints
 Book Management
 Method	Endpoint	Description
 POST	/api/books	Create a new book
