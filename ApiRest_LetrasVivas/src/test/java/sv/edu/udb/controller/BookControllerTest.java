@@ -14,6 +14,7 @@ import static org.mockito.Mockito.*;
 
 @SpringBootTest
 class BookControllerTest {
+
     @Mock
     private BookServices bookServices;
 
@@ -22,12 +23,18 @@ class BookControllerTest {
 
     @Test
     void getAll_shouldReturnBooks() {
-        Books book = new Books();
-        book.setTitle("El Alquimista");
-        when(bookServices.findAll()).thenReturn(Arrays.asList(book));
+
+        Books mockBook = new Books();
+        mockBook.setTitle("El Alquimista");
+        when(bookServices.findAll()).thenReturn(Arrays.asList(mockBook));
 
         ResponseEntity<List<Books>> response = bookController.getAll();
-        assertEquals(200, response.getStatusCodeValue());
-        assertEquals("El Alquimista", response.getBody().get(0).getTitle());
+
+        assertEquals(200, response.getStatusCodeValue(), "El código de estado debe ser 200");
+        assertFalse(response.getBody().isEmpty(), "La lista no debería estar vacía");
+        assertEquals("El Alquimista", response.getBody().get(0).getTitle(), "El título del libro no coincide");
+
+
+        verify(bookServices, times(1)).findAll();
     }
 }
