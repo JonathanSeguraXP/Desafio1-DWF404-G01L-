@@ -64,3 +64,12 @@ You can test the API using Postman Web or the desktop version.
 4. Paste the following base URL (for manual requests):
 `http://localhost:8080/api/books`
 5. Create and send requests using GET, POST, PUT, or DELETE to test the API endpoints.
+
+| Method | Endpoint          | Description       |
+| ------ | ----------------- | ----------------- |
+| GET    | `/api/books`      | Get all books     |
+| GET    | `/api/books/{id}` | Get book by ID    |
+| POST   | `/api/books`      | Add a new book    |
+| PUT    | `/api/books/{id}` | Update book by ID |
+| DELETE | `/api/books/{id}` | Delete book by ID |
+
