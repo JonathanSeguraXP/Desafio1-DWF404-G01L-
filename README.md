@@ -29,13 +29,14 @@ A RESTful API for book management built with Spring Boot, H2 database, and docum
    - Maven 3.8+
    - Postman
 
-### Installation
+## Installation
+ In you desktop local
 ```
 git clone https://https://github.com/JonathanSeguraXP/Desafio1-DWF404-G01L-.git
-cd letras-vivas-api 
+
 ```
 
-### Running the Application
+## Running the Application
 Build and start the Spring Boot application 
 
 Run  ApiRestLetrasVivasApplication.java
