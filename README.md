@@ -53,7 +53,11 @@ Password: None
 
 ## 🚀 API Testing with Postman Web
 
-### Access the Collection
-1. Open [Postman Web](https://web.postman.co/) in your browser
-2. Click **Import** → **http://localhost:8080/api/books** tab
-3. Paste this raw JSON URL:
+You can test the API using Postman Web or the desktop version.
+
+### 📥 How to Access the Collection
+
+1. Open [Postman Web](https://web.postman.co/) in your browser or launch the desktop app.
+2. Click the **Import** button in the top left.
+3. Choose the **Raw Text** or **Link** option.
+4. Paste the following base URL (for manual requests):
