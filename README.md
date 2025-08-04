@@ -1,7 +1,7 @@
 # 📚 Letras Vivas API - Book Management System
 
 ![Java](https://img.shields.io/badge/Java-17%2B-blue)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.1.0-green)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.4-green)
 ![H2 Database](https://img.shields.io/badge/H2-Database-teal)
 ![Swagger](https://img.shields.io/badge/Swagger-UI-orange)
 
@@ -22,4 +22,20 @@ A RESTful API for book management built with Spring Boot, H2 database, and docum
 - **API Docs**: SpringDoc OpenAPI 2.5.0
 - **Testing**: JUnit 5, Mockito
 
-## 📦 Project Structure
+## 🔧 Setup
+
+1. **Requirements**:
+   - Java 17+
+   - Maven 3.8+
+
+2. **Run locally**:
+   ```bash
+   mvn spring-boot:run
+
+3. **Initialize database**:
+
+H2 console: ```bash http://localhost:8080/h2-console```
+
+JDBC ```bash URL: jdbc:h2:file:./data/letrasvivasdb```
+
+Credentials: sa / (empty)
