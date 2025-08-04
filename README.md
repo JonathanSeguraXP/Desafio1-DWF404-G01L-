@@ -30,16 +30,16 @@ A RESTful API for book management built with Spring Boot, H2 database, and docum
    - Postman
 
 ## Installation
- In you desktop local
+  On your local machine:
 ```
-git clone https://https://github.com/JonathanSeguraXP/Desafio1-DWF404-G01L-.git
+git clone https://https:/github.com/JonathanSeguraXP/Desafio1-DWF404-G01L-.git
 
 ```
 
 ## Running the Application
 Build and start the Spring Boot application 
 
-Run  ApiRestLetrasVivasApplication.java
+Run the main class: `ApiRestLetrasVivasApplication.java`
 
 ## Initialize database:
 
@@ -47,9 +47,10 @@ H2 console: ``` http://localhost:8080/h2-console```
 
 JDBC ```jdbc:h2:file:./data/letrasvivasdb```
 
-Credentials: sa 
-
-Password: None
+- Credentials: sa
+- Password: None
++ Username: `sa`  
++ Password: *(leave blank)*
 
 ## 🚀 API Testing with Postman Web
 
@@ -61,3 +62,5 @@ You can test the API using Postman Web or the desktop version.
 2. Click the **Import** button in the top left.
 3. Choose the **Raw Text** or **Link** option.
 4. Paste the following base URL (for manual requests):
+`http://localhost:8080/api/books`
+5. Create and send requests using GET, POST, PUT, or DELETE to test the API endpoints.
