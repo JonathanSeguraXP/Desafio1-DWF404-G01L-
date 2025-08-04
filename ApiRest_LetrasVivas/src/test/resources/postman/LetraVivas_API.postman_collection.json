@@ -1,0 +1,54 @@
+{
+  "info": {
+    "name": "Letras Vivas API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Colección Postman para probar la API de Letras Vivas"
+  },
+  "item": [
+    {
+      "name": "Crear libro",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"title\":\"El Alquimista\", \"author\":\"Paulo Coelho\", \"publicationYear\":1988}"
+        },
+        "url": "http://localhost:8080/api/books"
+      },
+      "response": []
+    },
+    {
+      "name": "Obtener todos los libros",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:8080/api/books"
+      },
+      "response": []
+    },
+    {
+      "name": "Buscar libros por título",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:8080/api/books/search?title=Alquimista"
+      },
+      "response": []
+    },
+    {
+      "name": "Eliminar libro",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": "http://localhost:8080/api/books/1"
+      },
+      "response": []
+    }
+  ]
+}

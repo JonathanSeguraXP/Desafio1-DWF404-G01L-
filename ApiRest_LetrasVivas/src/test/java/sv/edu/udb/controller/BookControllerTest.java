@@ -22,14 +22,12 @@ class BookControllerTest {
 
     @Test
     void getAll_shouldReturnBooks() {
-        // Configuración del mock
         Books book = new Books();
-        book.setTitle("El Principito");
+        book.setTitle("El Alquimista");
         when(bookServices.findAll()).thenReturn(Arrays.asList(book));
 
-        // Ejecución y verificación
         ResponseEntity<List<Books>> response = bookController.getAll();
-        assertEquals(1, response.getBody().size());
-        assertEquals("El Principito", response.getBody().get(0).getTitle());
+        assertEquals(200, response.getStatusCodeValue());
+        assertEquals("El Alquimista", response.getBody().get(0).getTitle());
     }
 }
