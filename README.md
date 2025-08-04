@@ -27,15 +27,23 @@ A RESTful API for book management built with Spring Boot, H2 database, and docum
 1. **Requirements**:
    - Java 17+
    - Maven 3.8+
+   - Postman
 
-2. **Run locally**:
-   ```bash
-   mvn spring-boot:run
+### Installation
+```
+git clone https://https://github.com/JonathanSeguraXP/Desafio1-DWF404-G01L-.git
+cd letras-vivas-api 
+```
 
-3. **Initialize database**:
+### Running the Application
+Build and start the Spring Boot application 
+
+Run  ApiRestLetrasVivasApplication.java
+
+**Initialize database**:
 
 H2 console: ``` http://localhost:8080/h2-console```
 
-JDBC ``` URL: jdbc:h2:file:./data/letrasvivasdb```
+JDBC ```jdbc:h2:file:./data/letrasvivasdb```
 
 Credentials: sa / (empty)
