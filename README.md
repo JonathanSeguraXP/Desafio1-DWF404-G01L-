@@ -41,7 +41,7 @@ Build and start the Spring Boot application
 
 Run  ApiRestLetrasVivasApplication.java
 
-**Initialize database**:
+## Initialize database:
 
 H2 console: ``` http://localhost:8080/h2-console```
 
