@@ -47,4 +47,6 @@ H2 console: ``` http://localhost:8080/h2-console```
 
 JDBC ```jdbc:h2:file:./data/letrasvivasdb```
 
-Credentials: sa / (empty)
+Credentials: sa 
+
+Password: None
