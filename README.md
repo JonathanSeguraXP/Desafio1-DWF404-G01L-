@@ -24,13 +24,13 @@ API Docs: Swagger/OpenAPI/Postman.
 Testing: JUnit 5, Mockito, Postman.
 
 
-#🚀 Quick Start
+# 🚀 Quick Start
 Prerequisites
 Java 17+
 Maven
 Postman
 
-#API Endpoints
+# API Endpoints
 Book Management
 Method	Endpoint	Description
 POST	/api/books	Create a new book
@@ -39,7 +39,7 @@ GET	/api/books/{id}	Get a specific book
 PUT	/api/books/{id}	Update a book
 DELETE	/api/books/{id}	Delete a book
 
-Example POST request:
+# Example POST request:
 
 {
         "title": "El Alquimista",
