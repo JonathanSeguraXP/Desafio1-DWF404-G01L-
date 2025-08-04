@@ -34,8 +34,8 @@ A RESTful API for book management built with Spring Boot, H2 database, and docum
 
 3. **Initialize database**:
 
-H2 console: ```bash http://localhost:8080/h2-console```
+H2 console: ``` http://localhost:8080/h2-console```
 
-JDBC ```bash URL: jdbc:h2:file:./data/letrasvivasdb```
+JDBC ``` URL: jdbc:h2:file:./data/letrasvivasdb```
 
 Credentials: sa / (empty)
