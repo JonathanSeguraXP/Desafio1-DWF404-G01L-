@@ -1,0 +1,8 @@
+2025-08-03 22:25:18.329539-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "BOOKS" ya existe
+Table "BOOKS" already exists; SQL statement:
+CREATE TABLE books ( id BIGINT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL, author VARCHAR(255), publication_year INT ) [42101-232]
+2025-08-03 22:25:55.825260-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "BOOKS" ya existe
+Table "BOOKS" already exists; SQL statement:
+CREATE TABLE books ( id BIGINT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL, author VARCHAR(255), publication_year INT ) [42101-232]
